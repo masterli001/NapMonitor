@@ -1,6 +1,6 @@
 package com.example.napmonitor.ui
 
-git initgit initgit remote add origin https://github.com/masterli001/NapMonitor.gitgit add .git commit -m "First release of NapMonitor"import android.bluetooth.BluetoothAdapter
+import android.bluetooth.BluetoothAdapter
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater

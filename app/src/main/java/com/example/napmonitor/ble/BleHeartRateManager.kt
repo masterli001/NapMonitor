@@ -60,6 +60,7 @@ class BleHeartRateManager(private val context: Context) {
     var isMonitoring = false
     private var isFirstHeartRateToastShown = false
 
+    @SuppressLint("MissingPermission")
     fun connectToSavedDevice(mac: String, name: String?) {
         targetMac = mac
         if (isMonitoring) return
@@ -69,6 +70,7 @@ class BleHeartRateManager(private val context: Context) {
         connectDirect(mac)
     }
 
+    @SuppressLint("MissingPermission")
     fun disconnect() {
         isMonitoring = false
         isFirstHeartRateToastShown = false

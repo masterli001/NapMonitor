@@ -1,6 +1,7 @@
 package com.example.napmonitor.ui
 
 import android.Manifest
+import android.annotation.SuppressLint
 import android.app.AlertDialog
 import android.bluetooth.BluetoothAdapter
 import android.bluetooth.BluetoothManager
@@ -156,6 +157,7 @@ class MainActivity : AppCompatActivity() {
         startService(intent)
     }
 
+    @SuppressLint("MissingPermission")
     fun isBluetoothEnabled(): Boolean {
         val btManager = getSystemService(Context.BLUETOOTH_SERVICE) as BluetoothManager
         return btManager.adapter.isEnabled
