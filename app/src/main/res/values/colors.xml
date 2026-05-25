@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 基础色 -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="background_light">#F8F9FA</color>
+
+    <!-- 核心颜色 -->
+    <color name="accent_cyan">#1976D2</color>
+    <color name="minimalist_blue">#546E7A</color>
+    <color name="ice_blue_glow">#E3F2FD</color>
+    <color name="primary_blue">#0D47A1</color>
+
+    <!-- 文字与阴影 -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="divider_gray">#EEEEEE</color>
+
+    <!-- 兼容别名 (确保代码和布局不报错) -->
+    <color name="warm_white_bg">@color/background_light</color>
+    <color name="pure_white_card">@color/white</color>
+    <color name="deep_blue_primary">@color/accent_cyan</color>
+    <color name="charcoal_text">@color/text_primary</color>
+    <color name="gray_text_secondary">@color/text_secondary</color>
+    <color name="grey_blue_sub">@color/text_secondary</color>
+    <color name="divider_light">@color/divider_gray</color>
+    <color name="divider_color">@color/divider_gray</color>
+    <color name="professional_blue">@color/accent_cyan</color>
+    <color name="deep_charcoal_text">@color/text_primary</color>
+</resources>

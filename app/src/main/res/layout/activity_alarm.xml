@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#FF1B1B2F"
+    android:padding="32dp">
+
+    <TextView
+        android:id="@+id/alarm_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time to Wake Up!"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFFFF" />
+
+    <TextView
+        android:id="@+id/alarm_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your nap is complete."
+        android:textSize="18sp"
+        android:textColor="#FFBBBBBB"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/dismiss_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="DISMISS"
+        android:textSize="20sp"
+        android:layout_marginTop="48dp" />
+
+</LinearLayout>
